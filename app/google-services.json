@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1021508061616",
+    "project_id": "smartschool-d5ef1",
+    "storage_bucket": "smartschool-d5ef1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021508061616:android:24874eecfa3add12962e75",
+        "android_client_info": {
+          "package_name": "com.example.smartschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021508061616-2s82bhsl37kia5pls2n2lj5prluuvm0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmcKj4TWXhBoaOonawc0ctsHQBk5XSHKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021508061616-2s82bhsl37kia5pls2n2lj5prluuvm0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

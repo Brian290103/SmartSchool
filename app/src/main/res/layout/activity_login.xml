@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Add your details to login"
+            android:textAlignment="center"
+            android:textColor="@color/dark_grey"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/txtRegNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/text_bg"
+            android:fontFamily="@font/poppins_light"
+            android:hint="Registration Number"
+            android:maxLines="1"
+            android:padding="24dp"
+            android:textColorHint="@color/dark_grey"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text_bg"
+            android:fontFamily="@font/poppins_light"
+
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="24dp"
+            android:textColorHint="@color/dark_grey"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Forgot Password?"
+            android:textAlignment="textEnd"
+            android:id="@+id/btnForgotPass"
+            android:textColor="@color/pink" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
